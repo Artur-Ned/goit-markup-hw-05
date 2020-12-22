@@ -103,7 +103,7 @@ body {
 
 .header .logotype {
   margin-right: 50px;
-}
+ }
 
 .logotype {
   font-family: var(--secondary-font);
@@ -124,15 +124,20 @@ body {
 .nav-list-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 142;
+  line-height: 1.142;
   letter-spacing: 0.02em;
   color: var(--all-text-color);
   text-decoration: none;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-list-link:hover,
 .nav-list-link:focus {
   color: var(--accent-color-heder);
   outline: none;
+}
+.header-mail,
+.header-tel { 
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .p-button:hover,
@@ -152,8 +157,8 @@ body {
 .adress-footer a {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 142px;
-  letter-spacing: 2%;
+  line-height: 1.142px;
+  letter-spacing: 0.02em;
   color: var(--gray);
   font-style: normal;
   text-decoration: none;
@@ -186,6 +191,7 @@ body {
 .heder-tell-icon {
   fill: var(--gray);
   margin-right: 10px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -397,6 +403,7 @@ margin-bottom: 30px;
   height: 44px;
   background-color: var(--background-main-color);
   border-radius: 50%;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-link:hover .social-list-icon,
@@ -414,6 +421,7 @@ margin-bottom: 30px;
   width: 20px;
   height: 20px;
   fill: rgba(175, 177, 184, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*----------Постоянные клиенты--------------*/
 
@@ -457,6 +465,7 @@ margin-bottom: 50px;
   height: 90px;
   border: 1px solid #AFB1B8;
   fill: rgba(175, 177, 184, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -468,6 +477,9 @@ border: 1px solid var(--accent-color-heder);
 outline: none;
 }
 
+.regular-customers-icons {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 /*----------footer--------------*/
 
@@ -491,6 +503,11 @@ outline: none;
   color: var(--background-main-color);
   margin-bottom: 20px;
 }
+.adres-footer-link {
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
 /*----------body portfoli--------------*/
 /*----------portfolio-nav--------------*/
 
@@ -514,7 +531,7 @@ outline: none;
   height: 38px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 625;
+  line-height: 1.625;
   text-align: center;
   letter-spacing: 0.03em;
   border-radius: 4px;
@@ -522,6 +539,7 @@ outline: none;
   cursor: pointer;
   background-color: #f5f4fa;
   border: none;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .p-work-list {
@@ -543,6 +561,7 @@ outline: none;
 .p-work-item-link {
   display: block;
   overflow: hidden;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
 .p-work-item-link:focus,
@@ -645,6 +664,7 @@ a[href="https://goo.gl/maps/fY5pNtDdv6tUA1cWA"]
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-list-link:hover .social-list-icon,
@@ -662,6 +682,7 @@ a[href="https://goo.gl/maps/fY5pNtDdv6tUA1cWA"]
   width: 20px;
   height: 20px;
   fill: var(--background-main-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
