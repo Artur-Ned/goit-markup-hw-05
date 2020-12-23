@@ -226,10 +226,10 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .btn-heroy {
   font-weight: 700;
   font-size: 16px;
-  line-height: 1, 875;
+  line-height: 1.875;
   letter-spacing: 0.06em;
   border-radius: 4px;
-  padding: 13px 30px;
+  padding: 10px 32px;
   cursor: pointer;
   color: var(--background-main-color);
   background: #188ce8;
@@ -237,6 +237,8 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   font-family: var(--main-font);
   min-width: 200px;
   height: 50px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 /*----------ОСОБЕННОСТИ------------*/
@@ -695,6 +697,8 @@ a[href="https://goo.gl/maps/fY5pNtDdv6tUA1cWA"]
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .modal {
@@ -710,6 +714,9 @@ a[href="https://goo.gl/maps/fY5pNtDdv6tUA1cWA"]
 }
 
 .close-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -718,16 +725,21 @@ a[href="https://goo.gl/maps/fY5pNtDdv6tUA1cWA"]
   height: 30px;
   background:var(--background-main-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  margin-top: 8px;
-  margin-right: 8px;
+  cursor: pointer;
+  
 }
 
 .backdrop-btn-icon {
-width: 12px;
-height: 12px;
+width: 18px;
+height: 18px;
 
 }
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 
+}
 /*======================END BACKDROP===============*/
 
 
