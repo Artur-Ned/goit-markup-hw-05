@@ -135,7 +135,7 @@ body {
 .nav-item-line {
 content: " ";
 position: absolute;
-bottom: -34px;
+bottom: -33px;
 background:var(--accent-color-heder);
 border-radius: 2px;
 border-style: none;
